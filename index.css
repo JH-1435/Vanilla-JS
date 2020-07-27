@@ -1,0 +1,84 @@
+@import "reset.css";
+body {
+    display: block;
+    color: rgba(255, 255, 255, 0.897);
+}
+
+h1 {
+    font-size: 145px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(73, 71, 71);
+}
+
+.js-toDoList {
+    width: 150px;
+    font-size: 20px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.js-weather {
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.form,
+.greetings {
+    display: none;
+}
+
+.showing { 
+    display: block;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* 다른것들보다 뒤로가게 */
+    animation: fadeIn 0.5s linear; 
+}
