@@ -5,7 +5,7 @@ const IMG_NUMBER = 5;
 //백그라운드 이미지 랜덤하게 불러오기
 function paintImage(imgNumber) {
     const image = new Image(); // Image()를 image(변수)로 복사해서 새로 만듬
-    image.src = `/images/${imgNumber + 1}.jpg`// 이미지 넘버가 0 부터 시작하므로 +1 을 해줌
+    image.src = `images/${imgNumber + 1}.jpg`// 이미지 넘버가 0 부터 시작하므로 +1 을 해줌
     image.classList.add("bgImage"); // image 안에 클래스 추가 이름==변수(bgImage)
     body.appendChild(image); //body 안에 image 추가(appendChild 즉 HTML에 직접 추가하는 방법임)
 }
