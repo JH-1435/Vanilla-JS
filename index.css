@@ -26,9 +26,8 @@ h4 {
     justify-content: center;
     align-items: center;
 }
-.js-form {
-    padding-top: 30px;
-    padding-bottom: 20px;
+form {
+    padding-top: 25px;
 }
 input {
     font-size: 20px;
