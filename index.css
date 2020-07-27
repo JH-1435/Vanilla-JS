@@ -1,4 +1,8 @@
 @import "reset.css";
+body {
+    display: block;
+    color: rgba(255, 255, 255, 0.897);
+}
 
 h1 {
     font-size: 145px;
