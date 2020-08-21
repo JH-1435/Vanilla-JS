@@ -1,0 +1,24 @@
+body .js-weather{
+    display : flex;
+    position: absolute;
+    left : 10px;
+    top : 10px;
+    align-items : center;
+    flex-direction : column;
+    font-weight: bold;
+}
+
+.weather__icon{
+    display : none;
+}
+
+.weather__location {
+    font-weight: bold;
+    margin-left : 50px;
+}
+
+.js-weather .weather__icon{
+    display : flex;
+    align-items: center;
+    font-size : 23px;
+}
