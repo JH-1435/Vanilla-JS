@@ -1,4 +1,4 @@
-body .js-weather{
+.js-weather{
     display : flex;
     position: absolute;
     left : 10px;
